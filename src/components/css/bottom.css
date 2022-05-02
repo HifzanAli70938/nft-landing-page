@@ -1,0 +1,42 @@
+.bottom_section{
+    width: 100%;
+    height: 80vh;
+background-image: url('../assests/background2.png');
+background-position: center;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 17rem;
+    position: relative;
+}
+.card::before{
+    content:"our roadmap";
+    width: 18rem;
+    height: 5rem;
+    position: absolute;
+    margin-bottom: 4rem;
+    /* top: 50%;
+    left: 0; */
+    /* transform: translate(0%,-20%); */
+    background-color: #76ffe1;
+    border-radius: 30px;
+border-bottom: 10px solid black;
+border-right: 10px solid black;
+border-left: 4px solid black;
+border-top: 4px solid black;
+z-index: 999;
+text-transform: uppercase;
+font-weight: bolder;
+font-size: 1.5rem;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
