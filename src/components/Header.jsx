@@ -3,7 +3,14 @@ import "./css/header.css";
 import Eye from "./assests/Eye.png";
 import Card from './Card';
 const Header = () => {
+  let para=`Space FOMO Charlie is your first venture into the galaxy to discover joy. It’s the first, small step in unveiling our universe to collectors with dozens of spacecrafts design.
+
+  What is your FOMO Charlie in search of? Where is it going? How many other FOMO Charlie are near you? Your FOMO Charlie is the key to answering these questions in our first step of revealing the universe.
+  
+  All FOMO Charlie can claim their Space FOMO Charlie for free and receive its own unique appearance and competencies within their personal spacecraft. Stats like “bladder management” and “piloting ability” define a FOMO Charlie competency in Space
+  `
   return (
+
     <>
     <div className="header_main">
 
@@ -43,7 +50,7 @@ const Header = () => {
         </div>
       </section>
   
-<Card text="who we are ?" para="lore Ipsa laudantium molestias eos lore Ipsa laudantium molestias eos lore Ipsa laudantium molestias eos lore Ipsa laudantium molestias eos lore Ipsa laudantium molestias eos lore Ipsa laudantium molestias eos lore Ipsa laudantium molestias eos" />
+<Card text="who we are ?" para={para} />
 </div>
     </>
   );

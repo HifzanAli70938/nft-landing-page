@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Oswald:wght@700&family=Shadows+Into+Light&family=Tapestry&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Orelega+One&family=Oswald:wght@700&family=Roboto+Condensed:wght@700&family=Shadows+Into+Light&display=swap');
 .services{
     width: 100vw;
     height: 70vh;
@@ -6,6 +6,7 @@ background-color: rgb(255, 145, 26);
 }
 .service_card{
     background-color: #f7f0c6;
+    padding: 2rem 2rem;
 }
 .service_card>h1{
     font-family: 'Tapestry', cursive;
@@ -13,9 +14,6 @@ background-color: rgb(255, 145, 26);
     color: #593d0d;
 }
 .service_card>p{
-    font-family: 'Bangers', cursive;
-font-family: 'Orelega One', cursive;
-font-family: 'Oswald', sans-serif;
-font-family: 'Shadows Into Light', cursive;
-font-family: 'Tapestry', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+/* margin-top: -1rem; */
 }
